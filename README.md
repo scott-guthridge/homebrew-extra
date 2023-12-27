@@ -1,6 +1,6 @@
 # Scott-guthridge Extra
 
-## How do I install these formulae?
+## How to install these formulae?
 
 `brew install scott-guthridge/extra/<formula>`
 
