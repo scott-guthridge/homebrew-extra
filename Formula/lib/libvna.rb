@@ -1,15 +1,14 @@
 class Libvna < Formula
   desc "Vector network analyzer (VNA) calibration, conversion and touchstone load/save"
   homepage "https://github.com/scott-guthridge/libvna"
-  url "https://github.com/scott-guthridge/libvna/releases/download/v0.3.10/libvna-0.3.10.tar.gz"
-  sha256 "d8b28e98e1cc18ec26534a97cc0e6f604ac28528e1a7fb1708fca7ecac72bac6"
+  url "https://github.com/scott-guthridge/libvna/releases/download/v0.3.12/libvna-0.3.12.tar.gz"
+  sha256 "a8e02dd9f11053dd7ee123249f5a98d73176d55d9709ec05812f9eddaa2a7b08"
   license "GPL-3.0-or-later"
   head "https://github.com/scott-guthridge/libvna.git", branch: "master"
 
   bottle do
-    root_url "https://github.com/scott-guthridge/homebrew-extra/releases/download/libvna-0.3.10"
-    sha256 cellar: :any,                 ventura:      "6c3fd60903b2af29184cd13872470d4310248217e6006163c91764bf0ffc7cdd"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "3a2d316c4cba22ad02950f451c2e47add55cb00323e8c712978487e185dae732"
+    root_url "https://github.com/scott-guthridge/homebrew-extra/releases/download/libvna-0.3.12"
+    sha256 cellar: :any, high_sierra: "4b2d536c0cab84691cf761897f25681275f673e60621b234adc993df2e96b888"
   end
   depends_on "libyaml"
 
