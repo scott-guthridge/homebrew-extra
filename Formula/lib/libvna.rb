@@ -6,10 +6,10 @@ class Libvna < Formula
   license "GPL-3.0-or-later"
   head "https://github.com/scott-guthridge/libvna.git", branch: "master"
 
-  bottle do
-    root_url "https://github.com/scott-guthridge/homebrew-extra/releases/download/libvna-0.3.12"
-    sha256 cellar: :any, high_sierra: "4b2d536c0cab84691cf761897f25681275f673e60621b234adc993df2e96b888"
-  end
+  # bottle do
+  #   root_url "https://github.com/scott-guthridge/homebrew-extra/releases/download/libvna-0.3.12"
+  #   sha256 cellar: :any, high_sierra: "4b2d536c0cab84691cf761897f25681275f673e60621b234adc993df2e96b888"
+  # end
   depends_on "libyaml"
 
   def install
